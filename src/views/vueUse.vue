@@ -14,7 +14,6 @@ export default defineComponent({
   setup() {
     const { x, y } = useMouse();
 
-    
     return {
       x,
       y,
