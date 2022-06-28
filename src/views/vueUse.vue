@@ -13,6 +13,8 @@ export default defineComponent({
   name: 'VueUse',
   setup() {
     const { x, y } = useMouse();
+
+    
     return {
       x,
       y,
