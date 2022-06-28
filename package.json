@@ -51,6 +51,7 @@
   },
   "lint-staged": {
     "*.{ts,vue}": [
+      "npm run eslint",
       "npm run prettier"
     ]
   }
