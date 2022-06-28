@@ -10,7 +10,7 @@
     "eslint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore --fix src",
     "prettier:comment": "自动格式化当前目录下的所有文件",
     "prettier": "prettier --write",
-    "commit:comment": "引导设置规范化的提交信息",
+    "commit:comment": "引导设置规范化的提交信息(使用命令前请暂存文件，如git add .)",
     "commit":"git-cz"
   },
   "dependencies": {

@@ -22,6 +22,10 @@ module.exports = {
         'build', // 打包
       ],
     ],
+    // rule由name和配置数组组成，如：'name:[0, 'always','72']'
+    // []中第一位为level，可选值为0,1,2，0为disable，1为warning，2为error
+    // []第二位为应用与否，可选always，never，
+    // []第三位为该rule的值
     // <type> 格式 小写
     'type-case': [2, 'always', 'lower-case'],
     // <type> 不能为空
